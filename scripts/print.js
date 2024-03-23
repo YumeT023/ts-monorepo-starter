@@ -1,13 +1,11 @@
-import pc from "picocolors";
+import pico from "picocolors";
+import boxen from "boxen";
 
 export default {
   title(s) {
-    const bars = "=".repeat(s.length * 3);
-    console.log(bars);
-    console.log(pc.bgRed(pc.yellow(s)));
-    console.log(bars);
+    console.log(boxen(pico.yellow(s), {padding: 1, borderColor: "yellow"}));
   },
   step(s) {
-    console.log(`> ${s}...`);
+    console.log(pico.bold(`* ${s}...`));
   },
 };

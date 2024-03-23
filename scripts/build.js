@@ -18,7 +18,8 @@ buildAll(targets);
  * @param {string[]} targets
  */
 async function buildAll(targets = []) {
-  logger.title("Building...");
+  targets = ignoreAllInvalid(targets);
+  logger.title(`Building ${targets.length} packages...`);
   for (const target of ignoreAllInvalid(targets)) {
     logger.step(target);
     await build(target);

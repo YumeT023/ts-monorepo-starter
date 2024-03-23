@@ -19,6 +19,7 @@
   },
   "devDependencies": {
     "@types/node": "^20.11.28",
+    "boxen": "^7.1.1",
     "execa": "^8.0.1",
     "graceful-fs": "^4.2.11",
     "minimist": "^1.2.8",
