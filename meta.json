@@ -1,0 +1,21 @@
+{
+  "id": "ts-monorepo",
+  "args": [
+    {
+      "key": "author",
+      "label": "Author, e.g: proplate <author@proplate.org>",
+      "q_type": "Text"
+    },
+    {
+      "key": "name",
+      "label": "Monorepo scope name",
+      "q_type": "Text"
+    },
+    {
+      "key": "description",
+      "label": "Project description",
+      "q_type": "Text"
+    }
+  ],
+  "exclude": [""]
+}
