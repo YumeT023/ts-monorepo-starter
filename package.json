@@ -15,16 +15,21 @@
   "type": "module",
   "scripts": {
     "format": "prettier --write .",
-    "build": "node scripts/build.js"
+    "build": "node scripts/build.js",
+    "test": "vitest",
+    "test-coverage": "vitest --coverage"
   },
   "devDependencies": {
+    "@codspeed/vitest-plugin": "^3.1.0",
     "@types/node": "^20.11.28",
+    "@vitest/coverage-istanbul": "^1.4.0",
     "boxen": "^7.1.1",
     "execa": "^8.0.1",
     "graceful-fs": "^4.2.11",
     "minimist": "^1.2.8",
     "picocolors": "^1.0.0",
-    "prettier": "^3.0.0"
+    "prettier": "^3.0.0",
+    "vitest": "^1.4.0"
   },
   "dependencies": {
     "tslib": "^2.6.2",
