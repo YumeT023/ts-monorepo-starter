@@ -33,8 +33,8 @@ pnpm build <targets?>
 ## 🧨 Features
 
 - [ ] Bundler: [rollup](https://rollupjs.org)
-- [ ] Code quality:
+- [x] Code quality:
   - [x] formatter: [prettier](https://prettier.io/)
-  - [ ] linter: [eslint](https://eslint.org)
+  - [x] linter: [eslint](https://eslint.org)
   - [x] testing: [vitest](https://cypress.io)
 

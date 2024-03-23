@@ -1,7 +1,7 @@
 import minimist from "minimist";
 import fs from "node:fs/promises";
 import path from "node:path";
-import {existsSync} from "fs";
+import {existsSync} from "node:fs";
 import {$} from "execa";
 import {targets as allTargets, ignoreAllInvalid} from "./utils.js";
 import logger from "./print.js";
