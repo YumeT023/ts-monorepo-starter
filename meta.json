@@ -17,5 +17,5 @@
       "q_type": "Text"
     }
   ],
-  "exclude": [""]
+  "exclude": ["node_modules"]
 }
